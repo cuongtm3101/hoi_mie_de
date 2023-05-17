@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #222222;
+  padding: 10px 0;
+  padding-left: 10px;
+}
+
+nav ul {
+  display: flex;
+  color: #919191;
+  list-style-type: none;
+}
+
+nav ul li {
+  padding-right: 10px;
+}
+
+nav ul li a {
+  color: #919191;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+nav ul li.logo a {
+  font-weight: bold;
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
+.main-content .question-content {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #424242;
+}
+
+.btn-group {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group #dislike {
+  background-color: #da534f;
+  color: white;
+}
+
+.btn-group #like {
+  background-color: #347bb7;
+  color: white;
+}
+
+.btn {
+  padding: 20px 10px;
+  font-size: 20px;
+  border: none;
+  margin: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
